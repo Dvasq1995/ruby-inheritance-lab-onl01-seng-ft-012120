@@ -8,6 +8,6 @@ class Student < User
   end
   
   def self.knowlege
-    @@knowlege
+    @knowlege
   end
 end
