@@ -7,7 +7,7 @@ class Student < User
     self.knowlege << knowlege
   end
   
-  def knowlege
-    self.knowlege
+  def self.knowlege
+    @@knowlege
   end
 end
